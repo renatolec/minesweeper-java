@@ -20,8 +20,8 @@ public class Index extends JFrame {
         super.pack();
     }
 
-    public void play(){
-        field = new Game();
+    public void play(int b){
+        field = new Game(b);
         engine = new Engine();
         this.add(field);
         this.pack();

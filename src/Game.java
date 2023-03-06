@@ -34,15 +34,16 @@ public class Game extends JPanel{
     int[][] flaged = new int[h][w];
     int[][] hovered = new int[h][w];
 
-    Game(){
+    Game(int b){
         this.setPreferredSize(dimension);
-        this.setupVariables();
+        this.setupVariables(b);
         this.loadImages();
         this.setupField();
     }
 
-    private void setupVariables(){
+    private void setupVariables(int b){
         blocksize = (int)dimension.getWidth()/w;
+        this.b = b;
     }
 
     private void setupField(){
