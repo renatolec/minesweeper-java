@@ -1,18 +1,15 @@
-## Getting Started
+## Minesweeper
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Esse projeto é uma recriação do jogo "Minesweeper" e codificado em Java. 
 
-## Folder Structure
+![Screenshot](1.png)
 
-The workspace contains two folders by default, where:
+## Como executar
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+- Instale e configure o Java em sua máquina
+- Baixe e descompacte o arquivo .zip do jogo
+- Abra o prompt de comando no diretório onde os arquivos foram descompactados
+- Digite os seguintes comandos:
+    - cd src
+    - javac *.java
+    - java Minesweeper
