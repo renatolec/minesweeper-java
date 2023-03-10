@@ -70,7 +70,11 @@ public class Menu extends JFrame{
         Font font = new Font("Verdana", Font.BOLD, 18);
         gamemode[i] = new JButton(s[i]);
         gamemode[i].setBorder(compound);
-        gamemode[i].setBackground(Color.WHITE);
+        // gamemode[i].setBorderPainted(false);
+        // gamemode[i].setContentAreaFilled(false);
+        // gamemode[i].setFocusPainted(false);
+        // gamemode[i].setOpaque(false);
+        // gamemode[i].setBackground(Color.WHITE);
         gamemode[i].setFont(font);
         gamemode[i].setPreferredSize(new Dimension(50, 25));
         gamemode[i].setMaximumSize(new Dimension(100, 50));
